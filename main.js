@@ -68,6 +68,11 @@ document.body.appendChild(t2)
 let hr1 = document.createElement("hr")
 document.body.appendChild(hr1)
 
+let h2_2 = document.createElement("h2")
+h2_2.innerHTML = "Submission"
+h2_2.style.color = "red"
+document.body.appendChild(h2_2)
+
 let t3 = document.createElement("t")
 t3.innerHTML = "To submit your work, follow these instructions:"
 document.body.appendChild(t3)
